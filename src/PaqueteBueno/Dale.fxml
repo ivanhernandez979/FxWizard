@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="396.0" prefWidth="398.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PaqueteBueno.Controller">
+   <children>
+      <AnchorPane id="pane1" fx:id="pane1" prefHeight="396.0" prefWidth="398.0" style="-fx-background-color: red;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="168.0" layoutY="64.0" prefHeight="49.0" prefWidth="56.0" text="Primera" />
+         </children></AnchorPane>
+      <AnchorPane id="pane2" fx:id="pane2" prefHeight="396.0" prefWidth="398.0" style="-fx-background-color: blue;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="167.0" layoutY="66.0" prefHeight="49.0" prefWidth="56.0" text="Segunda" />
+         </children></AnchorPane>
+      <AnchorPane fx:id="pane3" prefHeight="396.0" prefWidth="398.0" style="-fx-background-color: green;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="165.0" layoutY="82.0" text="Tercera" />
+         </children></AnchorPane>
+      <JFXButton layoutX="280.0" layoutY="320.0" onAction="#nextAction" text="&gt;" />
+      <JFXButton layoutX="55.0" layoutY="320.0" onAction="#backAction" text="&lt;" />
+      <Label fx:id="countLabel" layoutX="180.0" layoutY="320.0" text="1/3" />
+   </children>
+</AnchorPane>
